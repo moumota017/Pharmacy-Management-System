@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="pharmacy.PharmacyController">
+    <children>
+        <Label text="Pharmacy Management" layoutX="150" layoutY="20" style="-fx-font-size: 18px;" />
+        <Label text="Medicine Name:" layoutX="50" layoutY="70" />
+        <TextField fx:id="medicineNameField" layoutX="160" layoutY="70" />
+        
+        <Label text="Quantity:" layoutX="50" layoutY="110" />
+        <TextField fx:id="quantityField" layoutX="160" layoutY="110" />
+
+        <Label text="Price:" layoutX="50" layoutY="150" />
+        <TextField fx:id="priceField" layoutX="160" layoutY="150" />
+
+        <Button text="Add Medicine" layoutX="160" layoutY="190" onAction="#handleAddMedicine" />
+        
+        <TableView fx:id="medicineTable" layoutX="50" layoutY="240" prefWidth="400" prefHeight="200">
+            <columns>
+                <TableColumn text="Name" fx:id="nameColumn" prefWidth="120"/>
+                <TableColumn text="Quantity" fx:id="quantityColumn" prefWidth="120"/>
+                <TableColumn text="Price" fx:id="priceColumn" prefWidth="120"/>
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
