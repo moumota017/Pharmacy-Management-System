@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="pharmacy.PharmacyController.inventory.InventoryController">
+    <top>
+        <Label text="Pharmacy Inventory Management" style="-fx-font-size: 20px;" BorderPane.alignment="CENTER"/>
+    </top>
+
+    <center>
+        <VBox spacing="10" padding="10">
+            <HBox spacing="10">
+                <VBox spacing="5">
+                    <Label text="Medicine Name"/>
+                    <TextField fx:id="nameField"/>
+
+                    <Label text="Quantity"/>
+                    <TextField fx:id="quantityField"/>
+
+                    <Label text="Price"/>
+                    <TextField fx:id="priceField"/>
+                </VBox>
+
+                <VBox spacing="5">
+                    <Label text="Supplier"/>
+                    <TextField fx:id="supplierField"/>
+
+                    <Label text="Stock Action"/>
+                    <ChoiceBox fx:id="stockActionBox"/>
+
+                    <Label text="Stock Change Amount"/>
+                    <TextField fx:id="stockChangeField"/>
+                </VBox>
+            </HBox>
+
+            <HBox spacing="10">
+                <Button text="Add / Update Product" onAction="#addOrUpdateProduct"/>
+                <Button text="Delete Product" onAction="#deleteProduct"/>
+                <Button text="Apply Stock Action" onAction="#updateStock"/>
+                <Button text="Generate Purchase Order" onAction="#generatePO"/>
+            </HBox>
+
+            <TableView fx:id="medicineTable" prefHeight="250">
+                <columns>
+                    <TableColumn fx:id="nameColumn" text="Name" prefWidth="150"/>
+                    <TableColumn fx:id="quantityColumn" text="Quantity" prefWidth="100"/>
+                    <TableColumn fx:id="priceColumn" text="Price" prefWidth="100"/>
+                    <TableColumn fx:id="supplierColumn" text="Supplier" prefWidth="150"/>
+                </columns>
+            </TableView>
+        </VBox>
+    </center>
+</BorderPane>
