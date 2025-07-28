@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="pharmecymanagementsystem.MainController">
+  <TabPane >
+    <Tab text="Inventory">
+      <fx:include source="InventoryTab.fxml"/>
+    </Tab>
+    <Tab text="Sales and POS">
+      <fx:include source="SalesTab.fxml"/>
+    </Tab>
+    <Tab text="Patient">
+      <fx:include source="PatientTab.fxml"/>
+    </Tab>
+    <Tab text="Reporting">
+      <fx:include source="ReportingTab.fxml"/>
+    </Tab>
+    <Tab text="User Mgmt">
+      <fx:include source="UserTab.fxml"/>
+    </Tab>
+  </TabPane>
+</AnchorPane>

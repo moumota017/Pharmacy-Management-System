@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="pharmecymanagementsystem.UserController"
+            prefWidth="800" prefHeight="600">
+
+    <!-- Users Table -->
+    <TableView fx:id="tblUsers" layoutX="14" layoutY="14" prefWidth="500" prefHeight="400">
+        <columns>
+            <TableColumn text="Username" prefWidth="200"/>
+            <TableColumn text="Role"     prefWidth="200"/>
+        </columns>
+    </TableView>
+
+    <!-- Form Fields -->
+    <TextField     fx:id="tfUsername" layoutX="530" layoutY="14" promptText="Username" prefWidth="200"/>
+    <PasswordField fx:id="pfPassword" layoutX="530" layoutY="54" promptText="Password" prefWidth="200"/>
+    <ComboBox      fx:id="cbRoles"    layoutX="530" layoutY="94" prefWidth="200"/>
+
+    <!-- Action Buttons -->
+    <Button fx:id="btnAddUser"     layoutX="530" layoutY="140" text="Add User"     prefWidth="100"/>
+    <Button fx:id="btnDeleteUser"  layoutX="640" layoutY="140" text="Delete User"  prefWidth="100"/>
+    <Button fx:id="btnAssignRole"  layoutX="530" layoutY="180" text="Assign Role"  prefWidth="210"/>
+
+</AnchorPane>

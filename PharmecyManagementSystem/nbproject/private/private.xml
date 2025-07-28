@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/MainController.java</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/MainLayout.fxml</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/MainApp.java</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/DBUtil.java</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/Product.java</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/Supplier.java</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/Patient.java</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/Prescription.java</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/Sale.java</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/Role.java</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/User.java</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/SalesController.java</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/PatientController.java</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/ReportingController.java</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/UserController.java</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/InventoryTab.fxml</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/SalesTab.fxml</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/PatientTab.fxml</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/ReportingTab.fxml</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/UserTab.fxml</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/InventoryController.java</file>
+            <file>file:/C:/Users/Galib/Documents/NetBeansProjects/PharmecyManagementSystem/src/pharmecymanagementsystem/test.fxml</file>
+        </group>
+    </open-files>
+</project-private>

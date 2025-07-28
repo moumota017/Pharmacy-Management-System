@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="pharmecymanagementsystem.PatientController"
+            prefWidth="800" prefHeight="600">
+
+    <!-- Patient Table -->
+    <TableView fx:id="tblPatients" layoutX="14" layoutY="14" prefWidth="500" prefHeight="400">
+        <columns>
+            <TableColumn text="Name"    prefWidth="150"/>
+            <TableColumn text="Address" prefWidth="150"/>
+            <TableColumn text="Phone"   prefWidth="100"/>
+            <TableColumn text="DOB"     prefWidth="100"/>
+        </columns>
+    </TableView>
+
+    <!-- Input Form -->
+    <TextField   fx:id="tfName"    layoutX="530" layoutY="14"  promptText="Name"     prefWidth="220"/>
+    <TextField   fx:id="tfAddress" layoutX="530" layoutY="54"  promptText="Address"  prefWidth="220"/>
+    <TextField   fx:id="tfPhone"   layoutX="530" layoutY="94"  promptText="Phone"    prefWidth="220"/>
+    <DatePicker  fx:id="dpDOB"     layoutX="530" layoutY="134"/>
+
+    <!-- Action Buttons -->
+    <Button fx:id="btnRegister" layoutX="530" layoutY="180" text="Register"   prefWidth="100"/>
+    <Button fx:id="btnUpdate"   layoutX="640" layoutY="180" text="Update"     prefWidth="100"/>
+    <Button fx:id="btnHistory"  layoutX="530" layoutY="230" text="View History" prefWidth="210"/>
+
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="pharmecymanagementsystem.ReportingController"
+            prefWidth="800" prefHeight="600">
+
+    <!-- Date Filters -->
+    <Label      layoutX="14"  layoutY="14" text="Start Date:"/>
+    <DatePicker fx:id="dpStart" layoutX="90"  layoutY="10"/>
+    <Label      layoutX="260" layoutY="14" text="End Date:"/>
+    <DatePicker fx:id="dpEnd"   layoutX="320" layoutY="10"/>
+
+    <!-- Report Buttons -->
+    <Button fx:id="btnSalesReport"     layoutX="480" layoutY="10" text="Sales Report"       prefWidth="100"/>
+    <Button fx:id="btnInventoryReport" layoutX="590" layoutY="10" text="Inventory Report"   prefWidth="120"/>
+    <Button fx:id="btnRxHistory"       layoutX="720" layoutY="10" text="Prescription History" prefWidth="150"/>
+
+    <!-- Output Area -->
+    <TextArea fx:id="taReport" layoutX="14" layoutY="50" prefWidth="760" prefHeight="530"/>
+
+</AnchorPane>
